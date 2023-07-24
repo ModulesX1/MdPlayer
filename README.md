@@ -1,4 +1,4 @@
-# MdPlayer
+# ModelPlayer
 
 Example to use
 ``` js
