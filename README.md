@@ -13,8 +13,14 @@ const player1 = new ModelPlayer("_YOUR_ELEMENT_ID_", {
             title: "_VIDEO_TITLE_",
             file: "_VIDEO_URL_",
             chapter: "_VIDEO_CHAPTER_",
+            poster: "_VIDEO_POSTER_URL_" || flase
+        },
+        {
+            title: "_VIDEO_TITLE_",
+            file: "_VIDEO_URL_",
+            chapter: "_VIDEO_CHAPTER_",
             poster: "_VIDEO_POSTER_URL_" || flase,
-            isplay: true
+            isplay: true // play this video in list
         },
         {
             title: "_VIDEO_TITLE_",
