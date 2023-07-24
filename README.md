@@ -13,13 +13,16 @@ const player1 = new ModelPlayer("_YOUR_ELEMENT_ID_", {
             title: "_VIDEO_TITLE_",
             file: "_VIDEO_URL_",
             chapter: "_VIDEO_CHAPTER_",
-            firstplay: true
+            poster: "_VIDEO_POSTER_URL_" || flase,
+            isplay: true
         },
         {
             title: "_VIDEO_TITLE_",
             file: "_VIDEO_URL_",
-            chapter: "_VIDEO_CHAPTER_"
+            chapter: "_VIDEO_CHAPTER_",
+            poster: "_VIDEO_POSTER_URL_" || flase
         }
-    ]
+    ],
+    poster: "_VIDEO_POSTER_URL_" || flase
 });
 ```
