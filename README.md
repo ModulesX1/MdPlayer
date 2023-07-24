@@ -12,7 +12,8 @@ const player1 = new ModelPlayer("_YOUR_ELEMENT_ID_", {
         {
             title: "_VIDEO_TITLE_",
             file: "_VIDEO_URL_",
-            chapter: "_VIDEO_CHAPTER_"
+            chapter: "_VIDEO_CHAPTER_",
+            firstplay: true
         },
         {
             title: "_VIDEO_TITLE_",
